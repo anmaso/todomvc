@@ -1,9 +1,0 @@
-Ext.define("todomvc.view.Viewport", {
-		extend : 'Ext.container.Viewport',
-		require : 'todomvc.view.Main',
-		layout:'fit',
-		items : [
-			{ xtype : 'main' }
-			]
-		
-});
